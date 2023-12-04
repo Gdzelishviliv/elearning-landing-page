@@ -1,13 +1,16 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width:824px) {
     .container{
         width: 689px;
     }
     .picture-section{
+        position: relative;
         grid-template-columns: auto auto;
         margin-top: 50px;
         gap: 33px;
     }
     .picture-section-second{
+        position: relative;
+        z-index: 2;
         background: url(./photos/girl.tablet.png), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%) 0px 0px / 100% 100% no-repeat;
         background-repeat: no-repeat;
         width: 238.723px;
@@ -47,5 +50,14 @@
     .picture-section-second #hours {
         bottom: -40px;
         left: -64px;
+    }
+    .purple-ornament{
+        position: absolute;
+        background-image: url(./photos/purple\ rectangle.png);
+        width: 298px;
+        height: 507px;
+        bottom: 2px;
+        left: 451px;
+        background-repeat: no-repeat;
     }
 }
