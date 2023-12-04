@@ -61,3 +61,60 @@
         background-repeat: no-repeat;
     }
 }
+@media screen and (min-width:1450px) {
+    .container{
+        width: 100%;
+        padding-inline: 165px;
+    }
+    .head h2{
+        font-size: 36px;
+    }
+    .head a{
+        font-size: 18px;
+        width: 167px;
+        height: 56px;
+    }
+    .picture-section{
+        grid-template-columns: 457px 313px;
+        gap: 258px;
+        margin-top: 87px;
+    }
+    .purple-ornament{
+        background-image: url(./photos/rectangle\ desktop.png);
+        width: 461px;
+        height: 1032px;
+        left: 769px;
+        bottom: -410px;
+        background-size: 447px;
+    }
+    .picture-section-second{
+        background: url(./photos/girl\ desktop.png), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%) 0px 0px / 100% 100% no-repeat;
+        width: 317px;
+        height: 560px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    h1{
+        margin: 0px;    
+    }
+    p{
+        margin: 0px;
+    }
+    .picture-section-first{
+        height: 359px;
+        margin-top: 85px;
+    }
+    .picture-section-second #members{
+        top: 126px;
+        right: -104px;
+        width: 155px;
+        height: 120px;
+    }
+    .features-section-grid{
+        grid-template-columns: auto auto auto;
+    }
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+    }
+}
