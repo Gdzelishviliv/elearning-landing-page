@@ -15,6 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 16px;
+    height: 48px;
 }
 .head h2{
     color: var(--darkblue);
@@ -64,6 +65,7 @@ p{
     background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
 }
 .picture-section-second{
+    position: relative;
     height: 253px;
     width: 253px;
     border-radius:158.5px;
@@ -71,4 +73,40 @@ p{
     background-position: bottom;
     background-repeat: no-repeat;
     margin: auto;
+}
+#members,
+#hours{
+    position: absolute;
+    height: 100px;
+    background-color: var(--white);
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    border-radius:10px;
+    text-align: start;
+}
+#members{
+    width: 105px;
+    padding: 16px 20px;
+}
+#hours{
+    width: 155px;
+    padding: 16px 45px 16px 20px;
+}
+#members p, #hours p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0px;
+    color: var(--gray);
+}
+#members span, #hours span{
+    font-size: 32px;
+    font-weight: 800;
+}
+.picture-section-second #members{
+    top: -25px;
+    right: -40px;
+}
+.picture-section-second #hours{
+    bottom: -30px;
+    left: -36px;
 }
