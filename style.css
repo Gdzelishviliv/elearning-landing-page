@@ -5,6 +5,7 @@
 }
 body{
     margin: 0px;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 .container{
     width: 343px;
@@ -109,4 +110,60 @@ p{
 .picture-section-second #hours{
     bottom: -30px;
     left: -36px;
+}
+.features-section-grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 75px;
+    gap: 40px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 343px;
+    height: 120px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+}
+.info-1,
+.info-2,
+.info-3,
+.info-4,
+.info-5{
+    position: relative;
+    width: 343px;
+    height: 259px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    background-color: var(--white);
+    border-radius: 10px;
+    padding:56px 29px 32px 28px;
+}
+#img{
+    border-radius: 27px;
+    position: absolute;
+    top: -25px;
+}
+h4{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--darkblue);
+}
+.features-section-grid p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--gray);
+}
+.features-section-grid a{
+    color: var(--pink);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
 }
