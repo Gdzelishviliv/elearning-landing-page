@@ -95,10 +95,13 @@
         background-position: bottom;
     }
     h1{
-        margin: 0px;    
+        margin: 0px;  
+        font-size: 54px;  
+        line-height: normal;
     }
     p{
         margin: 0px;
+        font-size: 18px;
     }
     .picture-section-first{
         height: 359px;
@@ -111,10 +114,46 @@
         height: 120px;
     }
     .features-section-grid{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 350px 350px 350px;
+        justify-content: center;
     }
     .footer-section{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 831px;
     }
+    .footer-section h2{
+        font-size:36px;
+
+    }
+    .footer-section a{
+        font-size: 18px;
+        width: 167px;
+        height: 56px;
+    }
+    .info-1, .info-2, .info-3, .info-4, .info-5{
+        display: grid;
+        align-items: baseline;
+        justify-items: start;
+        align-content: center;
+        gap: 24px;
+    }
+    #img{
+        left: 28px;
+    }
+    .info-2,
+    .info-3{
+        gap: 37px;
+    }
+    .checkbox{
+        height: 322px;
+    }
+    .picture-section-second #hours{
+        bottom: 98px;
+        left: -110px;
+        height: 120px;
+        width: 199px;
+        padding: 20px 65px 20px 24px;
+    }
+    
 }
