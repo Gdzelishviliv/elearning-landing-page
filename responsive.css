@@ -61,7 +61,7 @@
         background-repeat: no-repeat;
     }
 }
-@media screen and (min-width:1450px) {
+@media screen and (min-width:1350px) {
     .container{
         width: 100%;
         padding-inline: 165px;
@@ -79,14 +79,7 @@
         gap: 258px;
         margin-top: 87px;
     }
-    .purple-ornament{
-        background-image: url(./photos/rectangle\ desktop.png);
-        width: 461px;
-        height: 1032px;
-        left: 769px;
-        bottom: -410px;
-        background-size: 447px;
-    }
+    
     .picture-section-second{
         background: url(./photos/girl\ desktop.png), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%) 0px 0px / 100% 100% no-repeat;
         width: 317px;
@@ -127,6 +120,8 @@
 
     }
     .footer-section a{
+        position: relative;
+        z-index: 3;
         font-size: 18px;
         width: 167px;
         height: 56px;
@@ -155,5 +150,17 @@
         width: 199px;
         padding: 20px 65px 20px 24px;
     }
-    
+    .purple-ornament{
+        width: 317px;
+        height: 1008px;
+        transform: rotate(45deg);
+        border-radius: 158.5px;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        top: -350px;
+        left: 965px;
+    }
+    body{
+        overflow-x: hidden;
+        position: relative;
+    }
 }
